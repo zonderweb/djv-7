@@ -1,11 +1,19 @@
 @import "bourbon";
 
-$default-font: "roboto", sans-serif;
+$default-font: "raleway", sans-serif;
+$second-font: "firasans", sans-serif;
 $icon-font: "FontAwesome";
-$accent: orange;
+
+/* COLORS 
+================ */
+$accent: #F9C766;
+$blue:   #66C7CD;
+$red:    #F86868;
 
 
-// Mixin
+
+/* MIXIN 
+================== */
 
 // Classic clearfix
 @mixin cf {
